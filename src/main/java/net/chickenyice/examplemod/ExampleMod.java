@@ -1,8 +1,9 @@
-package net.chickenyice.examplemod.item;
+package net.chickenyice.examplemod;
 
 import com.mojang.logging.LogUtils;
-import net.chickenyice.examplemod.ModItems;
 import net.chickenyice.examplemod.block.ModBlocks;
+import net.chickenyice.examplemod.item.ModCreativeModTabs;
+import net.chickenyice.examplemod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;

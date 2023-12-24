@@ -1,6 +1,6 @@
 package net.chickenyice.examplemod.item;
 
-import net.chickenyice.examplemod.ModItems;
+import net.chickenyice.examplemod.ExampleMod;
 import net.chickenyice.examplemod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -23,6 +23,11 @@ public class ModCreativeModTabs {
 
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
+
+
                     })
                     .build());
 

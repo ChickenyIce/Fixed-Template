@@ -1,6 +1,6 @@
-package net.chickenyice.examplemod;
+package net.chickenyice.examplemod.item;
 
-import net.chickenyice.examplemod.item.ExampleMod;
+import net.chickenyice.examplemod.ExampleMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
