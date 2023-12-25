@@ -1,5 +1,6 @@
-package net.chickenyice.examplemod.block;
+package net.chickenyice.examplemod.block.custom;
 
+import net.chickenyice.examplemod.block.custom.SoundBlock;
 import net.chickenyice.examplemod.item.ModItems;
 import net.chickenyice.examplemod.ExampleMod;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -39,6 +40,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> END_STONE_SAPPHIRE_ORE = registerBlock("end_stone_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(4, 10)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock((BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.AMETHYST))));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

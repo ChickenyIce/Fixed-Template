@@ -1,7 +1,7 @@
 package net.chickenyice.examplemod.item;
 
 import net.chickenyice.examplemod.ExampleMod;
-import net.chickenyice.examplemod.block.ModBlocks;
+import net.chickenyice.examplemod.block.custom.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -28,6 +28,11 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
+
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
+
+                        output.accept(ModItems.STRAWBERRY.get());
+                        output.accept(ModItems.PINE_CONE.get());
 
 
                     })

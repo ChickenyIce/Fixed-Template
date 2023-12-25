@@ -2,13 +2,20 @@
   "item.examplemod.sapphire": "Sapphire",
   "item.examplemod.raw_sapphire": "Raw Sapphire",
   "block.examplemod.sapphire_block": "Block of Sapphire",
+  "block.examplemod.raw_sapphire_block": "Block of Sapphire",
 
   "block.examplemod.sapphire_ore": "Sapphire Ore",
   "block.examplemod.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.examplemod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.examplemod.end_stone_sapphire_ore": "End Sapphire Ore",
 
-  "block.examplemod.metal_detector": "Metal Detector",
+  "item.examplemod.metal_detector": "Metal Detector",
+
+  "block.examplemod.sound_block": "Sound Block",
+
+  "item.examplemod.strawberry": "Strawberry",
+
+  "item.examplemod.pine_cone": "Pine Cone",
 
   "creativetab.example_tab": "Example Sapphire Tab"
 }
