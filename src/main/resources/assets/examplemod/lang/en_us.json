@@ -2,7 +2,7 @@
   "item.examplemod.sapphire": "Sapphire",
   "item.examplemod.raw_sapphire": "Raw Sapphire",
   "block.examplemod.sapphire_block": "Block of Sapphire",
-  "block.examplemod.raw_sapphire_block": "Block of Sapphire",
+  "block.examplemod.raw_sapphire_block": "Block of Raw Sapphire",
 
   "block.examplemod.sapphire_ore": "Sapphire Ore",
   "block.examplemod.nether_sapphire_ore": "Nether Sapphire Ore",
@@ -10,6 +10,7 @@
   "block.examplemod.end_stone_sapphire_ore": "End Sapphire Ore",
 
   "item.examplemod.metal_detector": "Metal Detector",
+  "tooltip.examplemod.metal_detector.tooltip": "Find valuables underground!",
 
   "block.examplemod.sound_block": "Sound Block",
 
