@@ -9,6 +9,16 @@
   "block.examplemod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.examplemod.end_stone_sapphire_ore": "End Sapphire Ore",
 
+  "block.examplemod.sapphire_stairs": "Sapphire Stairs",
+  "block.examplemod.sapphire_slab": "Sapphire Slab",
+  "block.examplemod.sapphire_button": "Sapphire Button",
+  "block.examplemod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.examplemod.sapphire_fence": "Sapphire Fence",
+  "block.examplemod.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.examplemod.sapphire_wall": "Sapphire Wall",
+  "block.examplemod.sapphire_door": "Sapphire Door",
+  "block.examplemod.sapphire_trapdoor": "Sapphire Trapdoor",
+
   "item.examplemod.metal_detector": "Metal Detector",
   "tooltip.examplemod.metal_detector.tooltip": "Find valuables underground!",
 

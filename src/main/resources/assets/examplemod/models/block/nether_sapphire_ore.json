@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "examplemod:block/nether_sapphire_ore"
-  }
-}
