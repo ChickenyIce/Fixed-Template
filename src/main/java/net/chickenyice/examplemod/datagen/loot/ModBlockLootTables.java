@@ -53,6 +53,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
 
 
+        this.dropSelf(ModBlocks.ALEXANDRITE_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+
+        this.add(ModBlocks.ALEXANDRITE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+        this.add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+        this.add(ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.NETHER_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+        this.add(ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.END_STONE_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+
+
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

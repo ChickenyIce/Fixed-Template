@@ -16,13 +16,14 @@ public class ModCreativeModTabs {
 
     public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
-                    .title(Component.translatable("creativetab.example_tab"))
+                    .title(Component.translatable("creativetab.chickencraft"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SAPPHIRE.get());
                         output.accept(ModItems.RAW_SAPPHIRE.get());
 
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.SAPPHIRE_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
                         output.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
                         output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
@@ -57,6 +58,22 @@ public class ModCreativeModTabs {
 
                         output.accept(ModBlocks.SAPPHIRE_DOOR.get());
                         output.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+
+                        output.accept(ModItems.ALEXANDRITE.get());
+                        output.accept(ModItems.RAW_ALEXANDRITE.get());
+
+                        output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+                        output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
+                        output.accept(ModBlocks.ALEXANDRITE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get());
+                        output.accept(ModBlocks.END_STONE_ALEXANDRITE_ORE.get());
+                        output.accept(ModBlocks.NETHER_ALEXANDRITE_ORE.get());
+
+                        output.accept(ModItems.ALEXANDRITE_SWORD.get());
+                        output.accept(ModItems.ALEXANDRITE_PICKAXE.get());
+                        output.accept(ModItems.ALEXANDRITE_AXE.get());
+                        output.accept(ModItems.ALEXANDRITE_SHOVEL.get());
+                        output.accept(ModItems.ALEXANDRITE_HOE.get());
 
 
                     })

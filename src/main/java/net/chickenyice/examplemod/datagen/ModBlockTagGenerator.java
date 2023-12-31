@@ -21,7 +21,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-                .add(ModBlocks.SAPPHIRE_ORE.get()).addTags(Tags.Blocks.ORES);
+                .add(ModBlocks.SAPPHIRE_ORE.get()).addTags(Tags.Blocks.ORES)
+                .add(ModBlocks.ALEXANDRITE_ORE.get()).addTags(Tags.Blocks.ORES)
+                .add(ModBlocks.NETHER_ALEXANDRITE_ORE.get()).addTags(Tags.Blocks.ORES)
+                .add(ModBlocks.END_STONE_ALEXANDRITE_ORE.get()).addTags(Tags.Blocks.ORES)
+                .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get()).addTags(Tags.Blocks.ORES);
+
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SAPPHIRE_ORE.get(),
@@ -48,6 +53,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
                 .add(ModBlocks.SOUND_BLOCK.get());
+
+        this.tag(ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL);
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.SAPPHIRE_FENCE.get());

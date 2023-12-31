@@ -24,6 +24,10 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.SAPPHIRE_HELMET.get(),
                         ModItems.SAPPHIRE_CHESTPLATE.get(),
                         ModItems.SAPPHIRE_LEGGINGS.get(),
+                        ModItems.SAPPHIRE_BOOTS.get(),
+                        ModItems.SAPPHIRE_HELMET.get(),
+                        ModItems.SAPPHIRE_CHESTPLATE.get(),
+                        ModItems.SAPPHIRE_LEGGINGS.get(),
                         ModItems.SAPPHIRE_BOOTS.get());
     }
 }

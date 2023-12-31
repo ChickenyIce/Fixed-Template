@@ -37,6 +37,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.SAPPHIRE_TRAPDOOR.get()), modLoc("block/sapphire_trapdoor"), true, "cutout");
 
         blockWithItem(ModBlocks.SOUND_BLOCK);
+
+        blockWithItem(ModBlocks.ALEXANDRITE_BLOCK);
+        blockWithItem(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+
+        blockWithItem(ModBlocks.ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.END_STONE_ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.NETHER_ALEXANDRITE_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

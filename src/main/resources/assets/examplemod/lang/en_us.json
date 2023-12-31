@@ -30,16 +30,28 @@
   "block.examplemod.sapphire_door": "Sapphire Door",
   "block.examplemod.sapphire_trapdoor": "Sapphire Trapdoor",
 
+  "item.examplemod.alexandrite": "Alexandrite",
+  "item.examplemod.raw_alexandrite": "Raw Alexandrite",
+  "block.examplemod.alexandrite_block": "Alexandrite Block",
+  "block.examplemod.raw_alexandrite_block": "Raw Alexandrite Block",
+  "block.examplemod.alexandrite_ore": "Alexandrite Ore",
+  "block.examplemod.nether_alexandrite_ore": "Nether Alexandrite Ore",
+  "block.examplemod.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
+  "block.examplemod.end_stone_alexandrite_ore": "End Stone Alexandrite Ore",
+
+  "item.examplemod.alexandrite_sword": "Alexandrite Sword",
+  "item.examplemod.alexandrite_pickaxe": "Alexandrite Pickaxe",
+  "item.examplemod.alexandrite_axe": "Alexandrite Axe",
+  "item.examplemod.alexandrite_shovel": "Alexandrite Shovel",
+  "item.examplemod.alexandrite_hoe": "Alexandrite Hoe",
+
+
   "item.examplemod.metal_detector": "Metal Detector",
   "tooltip.examplemod.metal_detector.tooltip": "Find valuables underground!",
-
   "item.examplemod.sapphire_staff": "Sapphire Staff",
-
   "block.examplemod.sound_block": "Sound Block",
-
   "item.examplemod.strawberry": "Strawberry",
-
   "item.examplemod.pine_cone": "Pine Cone",
 
-  "creativetab.example_tab": "Example Sapphire Tab"
+  "creativetab.chickencraft": "ChickenCraft"
 }

@@ -73,6 +73,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.SAPPHIRE_CHESTPLATE);
         trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
         trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
+
+        simpleItem(ModItems.ALEXANDRITE);
+        simpleItem(ModItems.RAW_ALEXANDRITE);
+
+        handheldItem(ModItems.ALEXANDRITE_SWORD);
+        handheldItem(ModItems.ALEXANDRITE_PICKAXE);
+        handheldItem(ModItems.ALEXANDRITE_AXE);
+        handheldItem(ModItems.ALEXANDRITE_SHOVEL);
+        handheldItem(ModItems.ALEXANDRITE_HOE);
     }
 
     // Shoutout to El_Redstoniano for making this
